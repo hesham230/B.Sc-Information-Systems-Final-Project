@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Emran2020</string>
+
+    <string-array name="sp">
+        <item>       Choose which variable you want to search for \n\n\n \n\n----> </item>
+        <item>Id</item>
+        <item>Registration Date ------> Sep 16, 2020</item>
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Gender ------> male/female</item>
+        <item>BirthDay ------> day/month/year</item>
+        <item>Phone</item>
+        <item>Age</item>
+        <item>Location</item>
+
+
+    </string-array>
+
+
+    <string-array name="sp1">
+        <item>       Choose which variable you want to search for \n\n\n \n\n--> </item>
+        <item>Id</item>
+        <item>Entry Date ------> Sep 16, 2020</item>
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Gender ------> male/female</item>
+        <item>Age</item>
+
+
+    </string-array>
+
+
+    <string-array name="sp3">
+        <item>       Choose which variable you want to search for --> </item>
+        <item>Id</item>
+        <item>Date ------> Sep 16, 2020</item>
+        <item>First Name</item>
+        <item>Last Name</item>
+    </string-array>
+
+
+</resources>

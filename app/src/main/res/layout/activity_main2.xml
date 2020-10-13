@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Main2Activity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <EditText
+
+        android:id="@+id/newId"
+        android:layout_width="match_parent"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Your ID"
+        android:inputType="number"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+
+        android:id="@+id/newFullName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Ful Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newPassWord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newId" />
+
+    <EditText
+        android:id="@+id/newPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newBirthday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newFullName" />
+
+    <EditText
+        android:id="@+id/newBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Birthday   day/month/year"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPassWord" />
+
+    <EditText
+        android:id="@+id/newPhone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newBirthday" />
+
+    <EditText
+        android:id="@+id/newLocation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+
+        android:gravity="start|top"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button222"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPhone" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="376dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reg" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="162dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="13dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/newId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/paper"
+
+
+            android:text="male" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/paper"
+
+            android:text="female"
+            app:layout_constraintStart_toStartOf="parent" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button222"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="enterRegister"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:text="Register Now"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newLocation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

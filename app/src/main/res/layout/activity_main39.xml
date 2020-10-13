@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Main39Activity">
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="428dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView79"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+
+        android:id="@+id/show7000"
+        android:layout_width="299dp"
+        android:layout_height="40dp"
+
+
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Insert here"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView79" />
+
+    <Button
+        android:id="@+id/button70"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="156dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="show7000"
+        android:text="SHOW"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show7000"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="463dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/show7000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47"
+        app:srcCompat="@drawable/inp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

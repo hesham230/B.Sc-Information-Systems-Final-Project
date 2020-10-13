@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "533189132091",
+    "firebase_url": "https://emran2020-27476.firebaseio.com",
+    "project_id": "emran2020-27476",
+    "storage_bucket": "emran2020-27476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533189132091:android:47442f191d7266c128411e",
+        "android_client_info": {
+          "package_name": "com.example.emran2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533189132091-2c99ic85hlutonf5tds9jcsu94jad4pp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emran2020",
+            "certificate_hash": "572360440136d81b68a9f66b58629b6d19858ba1"
+          }
+        },
+        {
+          "client_id": "533189132091-6gev0bvrekrtvtr541rseg4633lmatbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRQEf9uh06XJfUJatFoKc4xmf1iXB2KkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533189132091-6gev0bvrekrtvtr541rseg4633lmatbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

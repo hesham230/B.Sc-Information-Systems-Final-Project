@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkkk"
+    tools:context=".Main48Activity">
+
+    <Button
+        android:id="@+id/button24"
+
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="showMessages"
+        android:text="Show all Messages"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@android:style/Widget.DeviceDefault.Button"
+        app:layout_constraintBottom_toTopOf="@+id/button26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button26"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="313dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="searchM5"
+        android:text="Search for Message"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button24"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

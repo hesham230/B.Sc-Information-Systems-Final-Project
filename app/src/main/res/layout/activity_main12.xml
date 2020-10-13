@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Main12Activity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/newId3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19">
+
+
+        <RadioButton
+            android:id="@+id/radioButton33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/paper"
+
+            android:checked="true"
+            android:text="male" />
+
+        <RadioButton
+            android:id="@+id/radioButton44"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/paper"
+
+            android:text="female"
+            app:layout_constraintStart_toStartOf="parent" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/newId3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Pateint Id"
+        android:inputType="number"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newFullName1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/newFullName1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textCapWords"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newPassWord1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newId3" />
+
+    <EditText
+        android:id="@+id/newPassWord1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newBirhDay1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newFullName1" />
+
+    <EditText
+        android:id="@+id/newBirhDay1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Birthday   day/month/year"
+        android:inputType="date"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/newPhone1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPassWord1" />
+
+    <EditText
+        android:id="@+id/idtz5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button222"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPhone1" />
+
+    <EditText
+        android:id="@+id/newPhone1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/idtz5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newBirhDay1" />
+
+    <Button
+        android:id="@+id/button222"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="Add"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Press To Add"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtz5" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="425dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/add" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+

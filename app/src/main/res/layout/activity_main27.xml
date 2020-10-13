@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkkk"
+    tools:context=".Main27Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="144dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintEnd_toStartOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/accept" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="193dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="202dp"
+        android:layout_marginLeft="202dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="139dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="starthere"
+        android:text=" Start"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@android:style/Widget.DeviceDefault.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <Button
+        android:id="@+id/button9"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="273dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="toexercises"
+        android:text="System?!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@android:style/Widget.DeviceDefault.Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button15"
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="myProfile"
+        android:text="My Profile"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@android:style/Widget.DeviceDefault.Button"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="210dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="299dp"
+        android:text="TextView"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="14dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aga"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textq"
+
+
+        android:layout_width="368dp"
+
+        android:layout_height="87dp"
+
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="221dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextId"
+        app:layout_constraintEnd_toEndOf="@+id/finishId"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hi"
+        app:layout_constraintTop_toBottomOf="@+id/hi" />
+
+    <Button
+        android:id="@+id/previousId"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/aca"
+        android:onClick="EnterPrevious"
+        android:text="previous"
+        app:layout_constraintBaseline_toBaselineOf="@+id/nextId"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/finishId"
+        android:layout_width="266dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/aca"
+        android:onClick="EnterFinsh1"
+        android:text="Finish"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextId"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/nextId"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/aca"
+        android:onClick="EnterNext"
+        android:text="Next"
+        app:layout_constraintBottom_toTopOf="@+id/finishId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textq" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+
+        android:layout_width="269dp"
+        android:layout_height="119dp"
+
+
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/aga"
+        app:layout_constraintBottom_toTopOf="@+id/previousId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textq"
+        app:layout_constraintVertical_bias="0.442">
+
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/hi"
+
+        android:layout_width="334dp"
+
+        android:layout_height="55dp"
+
+
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="43dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

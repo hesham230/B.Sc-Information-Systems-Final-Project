@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+
+    tools:context=".Main36Activity">
+
+    <EditText
+        android:id="@+id/editText999"
+        android:layout_width="266dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="Insert here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        style="@android:style/Widget.DeviceDefault.Light.Spinner"
+        android:layout_width="357dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="39dp"
+        android:entries="@array/sp3"
+        app:layout_constraintBottom_toTopOf="@+id/editText999"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView76" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="189dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="218dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="Search123123"
+        android:text="Search"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText999"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView76"
+        android:layout_width="330dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nurseb" />
+</androidx.constraintlayout.widget.ConstraintLayout>

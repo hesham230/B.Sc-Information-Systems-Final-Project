@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Main19Activity">
+
+
+    <EditText
+
+        android:id="@+id/show70"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+
+
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:hint="Insert here"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView70" />
+
+    <Button
+        android:id="@+id/button70"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="183dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:onClick="show70"
+        android:text="SHOW"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show70"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="474dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/show70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView71"
+        app:srcCompat="@drawable/inp" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="268dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

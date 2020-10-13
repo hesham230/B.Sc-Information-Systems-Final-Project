@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Main43Activity">
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="405dp"
+        android:layout_height="178dp"
+
+
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gh" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+
+        android:layout_marginBottom="7dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+
+        android:text="TextView"
+        android:textSize="17sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView58"
+        app:layout_constraintEnd_toEndOf="@+id/textView58"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView58"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:textSize="17sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="14dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView57"
+        app:layout_constraintEnd_toEndOf="@+id/textView57"
+        app:layout_constraintStart_toStartOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="@+id/textView37"
+        app:layout_constraintStart_toStartOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:textSize="17sp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView59"
+        app:layout_constraintEnd_toEndOf="@+id/textView59"
+        app:layout_constraintStart_toStartOf="@+id/textView59"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:textSize="17sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:textSize="17sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView60"
+        app:layout_constraintEnd_toEndOf="@+id/textView60"
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:textSize="17sp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView61"
+        app:layout_constraintEnd_toEndOf="@+id/textView61"
+        app:layout_constraintStart_toStartOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:textSize="17sp"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="23dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="45dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="350dp"
+        android:textSize="17sp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="11dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView48" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

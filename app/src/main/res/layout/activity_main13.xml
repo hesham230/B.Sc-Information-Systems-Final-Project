@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Main13Activity">
+
+
+    <EditText
+
+        android:id="@+id/IdtoDelete"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="21dp"
+
+        android:background="@drawable/textshape"
+        android:drawableRight="@drawable/user"
+        android:ems="10"
+        android:hint="Pateint Id"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/v444"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+    <EditText
+
+        android:id="@+id/v444"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/textshape"
+        android:drawableRight="@drawable/pass"
+        android:ems="10"
+        android:hint="Pass"
+
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTOdelete2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdtoDelete" />
+
+    <Button
+        android:id="@+id/buttonTOdelete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="53dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:onClick="DeleteAll"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Delete the user with his data"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTOdelete2"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/buttonTOdelete2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        android:onClick="DeletetNotAll"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Delete the user without his data"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTOdelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v444"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/IdtoDelete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/userd" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="383dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="460dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/goo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
